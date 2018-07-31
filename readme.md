@@ -20,7 +20,7 @@ At any point in our JS code, if we write `prompt()`, a pop up box will open in o
 
 ```js
 // prompts user and stores value in the variable
-var valueOfPrompt = prompt()
+let valueOfPrompt = prompt()
 // logs value stored
 console.log(valueOfPrompt)
 ```
@@ -28,7 +28,7 @@ console.log(valueOfPrompt)
 Prompt takes a string as an argument. That string is displayed in the pop up.
 
 ```js
-var age = prompt("How old are you?")
+let age = prompt("How old are you?")
 // ES6 String Interpolation
 alert(`You are ${age} years old.`)
 // ES5 Version
